@@ -7,6 +7,9 @@
 </ion-header>
 
 <ion-content>
-    <h1>Hello World</h1>
-    <h6>Hello World</h6>
+  <div>{{base}}</div>
+   <div>
+     <img  *ngFor="let img of images" src="{{img}}">
+   </div>
+    <input type="button" (click)="getPic()" />
 </ion-content>
