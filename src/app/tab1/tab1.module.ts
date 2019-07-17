@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { Tab1Page } from './tab1.page';
 import { Camera, CameraOptions } from '@ionic-native/camera/ngx';
 
-@NgModule({
+@NgModule({ 
   imports: [
     IonicModule,
     CommonModule,
